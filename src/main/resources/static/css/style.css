@@ -1,0 +1,12 @@
+body {
+  background-color: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+}

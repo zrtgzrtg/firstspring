@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jokes</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="jokeList" th:each="joke : ${list}">
+        <div class="joke-card">
+          <div class="joke" th:text="${joke}">Joke didnt work :8</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

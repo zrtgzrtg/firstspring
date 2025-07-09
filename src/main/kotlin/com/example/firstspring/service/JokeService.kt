@@ -22,4 +22,5 @@ class JokeService(val webClient: WebClient) {
         }
         return mutList
     }
+    
 }
